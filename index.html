@@ -97,7 +97,7 @@ $(document).ready(function() {
 	  '<div data-role="page" id="' + set_id + '">' +
 	  
 	  // Sound files
-	  '<audio id="audio_' + set_id + '" src="sounds/words/' + word_answers[ci] + '.wav"></audio>' +
+	  '<audio id="audio_' + set_id + '"></audio>' +
 	  '<audio id="audio_' + set_id + '_response" src="sounds/' + "s_correct" + '.wav"></audio>' +
 	  
 	  // Heading
@@ -236,7 +236,6 @@ $(document).ready(function() {
 		// If the answer is correct
 		if (button_text == correct_answer) {
 			cscore = cscore + 1
-			console.log(cscore + '/' + set_words.length)
 			$('#' + set_id + '_status').empty().append("Correct!");
 			$('#' + set_id + '_answer').empty().append("The answer is " + correct_answer);
 			
@@ -246,7 +245,6 @@ $(document).ready(function() {
 			
 		// If the answer is incorrect
 		} else {
-			console.log(cscore + '/' + set_words.length)
 			$('#' + set_id + '_status').empty().append("Sorry!");
 			$('#' + set_id + '_answer').empty().append("The answer is " + correct_answer);
 			
@@ -316,10 +314,11 @@ $(document).ready(function() {
 		// Refresh the buttons with a new pair
 		$('#' + set_id + '_word_1').empty().append(shuffled_set_words[ci][0]);
 		$('#' + set_id + '_word_2').empty().append(shuffled_set_words[ci][1]);
-		
-				// Update the pictures
+
 		$('#' + set_id + '_img_1').attr('src', 'images/words/' + shuffled_set_words[ci][0] + '.gif')
 		$('#' + set_id + '_img_2').attr('src', 'images/words/' + shuffled_set_words[ci][1] + '.gif')
+		
+		
 		$('#' + set_id + '_img_1').attr('onerror', 'this.onerror=null;this.src="images/img-error.jpg";')
 		$('#' + set_id + '_img_2').attr('onerror', 'this.onerror=null;this.src="images/img-error.jpg";')
 				
@@ -333,7 +332,6 @@ $(document).ready(function() {
 		// The bar will depend on the size of the word set
 		cprogresswidth = (cprogress/set_words.length * 100)
 		bar.style.width = cprogresswidth + '%'; 
-		console.log(cprogresswidth)
 		$('#' + set_id + '_progress_number').empty().append(cprogress + '/' + set_words.length);	
 
 		} else {
