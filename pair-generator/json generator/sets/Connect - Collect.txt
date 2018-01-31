@@ -1,0 +1,5 @@
+Name	Connect - Collect														
+id	connect_collect														
+symbols	/n/ and /l/														
+tags	"zh"	"hk"	"mo"														
+words	"connect, collect"	"nead, lead"	"knock, lock"	"snow, slow"	"winning, willing"	"nap, lap"	"name, lame"	"snap, slap"	"trainer, trailer"	"snack, slack"	"knot, lot"	"neighbour, labour"	"number, lumber"	"unarmed, alarmed"	"spinning, spilling"

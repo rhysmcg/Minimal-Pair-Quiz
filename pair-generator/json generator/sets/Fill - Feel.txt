@@ -1,0 +1,5 @@
+Name	Fill - Feel									
+id	fill_feel									
+symbols	/ɪl/ and /iːl/									
+tags	zh									
+words	"fill, feel"	"ill, eel"	"will, wheel"	"still, steel"	"hill, heel"	"pillar, peeler"	"mill, meal"	"nill, kneel"	"filling, feeling"	"frilly, freely"

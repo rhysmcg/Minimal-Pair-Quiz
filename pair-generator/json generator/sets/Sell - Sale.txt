@@ -1,0 +1,5 @@
+Name	Sell - Sale									
+id	sell_sale									
+symbols	/el/ and /eɪl/									
+tags	zh									
+words	"sell, sale"	"fell, fail"	"tell, tail"	"well, whale"	"hell, hail"	"deli, daily"	"bell, bail"	"held, hailed"	"cellar, sailor"	"selling, sailing"

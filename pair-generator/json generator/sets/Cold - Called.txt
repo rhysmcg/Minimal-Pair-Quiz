@@ -1,0 +1,5 @@
+Name	Cold - Called									
+id	cold_called									
+symbols	/əʊl/ and /ɔːl/									
+tags	zh									
+words	"cold, called"	"hole, hall"	"stole, stall"	"bowl, ball"	"mole, mall"	"bold, bald"	"toll, tall"	"pole, Paul"	"hold, hauled"	"bowling, balling"

@@ -1,0 +1,5 @@
+Name	Boat - Bolt									
+id	boat_bolt									
+symbols	/əʊ/ and /əʊl/									
+tags	zh
+words	"hose, holes"	"boat, bolt"	"go, goal"	"odor, older"	"row, roll"	"vote, volt"	"code, cold"	"toes, tolls"	"coat, colt"	"sow, sole"

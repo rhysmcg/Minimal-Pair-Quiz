@@ -1,0 +1,5 @@
+Name	Cancel - Cancer														
+id	cancel_cancer														
+symbols	/əl/ and /ə/														
+tags	zh														
+words	"cancel, cancer"	"angle, anger"	"towel, tower"	"loyal, lawyer"	"temple, temper"	"eagle, eager"	"ankle, anchor"	"survival, survivor"	"mental, mentor"	"little, litter"	"title, tighter"	"label, labour"	"final, finer"	"battle, batter"	"shuttle, shutter"

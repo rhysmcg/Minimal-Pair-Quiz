@@ -1,0 +1,5 @@
+﻿Name	World - Word				
+id	world_word				
+symbols	/ɜːl/ and /ɜː/				
+tags	"zh"	"hk"	"mo"				
+words	"world, word"	"hurl, her"	"pearl, purr"	"whirl, were"	"hurled, heard"
