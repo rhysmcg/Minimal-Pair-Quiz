@@ -23,6 +23,7 @@
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/responsivevoice.js"></script>
 
 
 
@@ -213,9 +214,26 @@ $(document).ready(function() {
 		var bar = document.getElementById(set_id + '_bar'); 
 		bar.style.width = '0%';
 		
-		// Play the new shuffled audio
+		
+		// Load the audio with a word	
 		$('#' + 'audio_' + set_id)[0].src = 'sounds/words/' + word_answers[ci] + ".wav";
-		$('#' + 'audio_' + set_id)[0].play();
+		
+		
+		// Try to play the audio
+		// If there has been no audio recorded, use a text to speech voice
+		// This allows for the site to still be usable, despite not recording everything
+		try {
+			$('#' + 'audio_' + set_id)[0].play();
+		    } catch (e) {
+			console.log(e);
+		    }
+		});
+
+		$('#' + 'audio_' + set_id).on("error", function (e) {
+			console.log("Error at audio tag level!");
+			responsiveVoice.speak(word_answers[ci], "UK English Male");
+		    });
+
 		
 		
 		// Enable the buttons
