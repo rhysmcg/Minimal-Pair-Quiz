@@ -229,8 +229,9 @@ $(document).ready(function() {
 		    }
 
 		$('#' + 'audio_' + set_id).on("error", function (e) {
-			console.log("Error at audio tag level!");
-			responsiveVoice.speak(word_answers[ci], "UK English Male");
+			tts_url = "https://code.responsivevoice.org/getvoice.php?tl=en_gb&t="
+			$('#' + 'audio_' + set_id)[0].src = tts_url + word_answers[ci]	
+			$('#' + 'audio_' + set_id)[0].play();
 		    });
 
 		
@@ -352,8 +353,9 @@ $(document).ready(function() {
 		    }
 
 		$('#' + 'audio_' + set_id).on("error", function (e) {
-			console.log('Sorry, couldnt find audio! Trying text to speech');
-			responsiveVoice.speak(word_answers[ci], "UK English Male");
+			tts_url = "https://code.responsivevoice.org/getvoice.php?tl=en_gb&t="
+			$('#' + 'audio_' + set_id)[0].src = tts_url + word_answers[ci]	
+			$('#' + 'audio_' + set_id)[0].play();
 		    });
 			
 			
