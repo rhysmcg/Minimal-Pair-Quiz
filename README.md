@@ -9,6 +9,11 @@ Go to this page: https://rhysmcg.github.io/Minimal-Pair-Quiz/ and then choose a 
 
 ## To do list
 
+Collecting
+* Images from Irasutoya
+* Recordings of words
+* Perhaps remove TTS service alltogether? Causing more hassle and not as consistant 
+
 Load the images smoothly 
 * Set to blank, fade out, switch image, fade in
 
