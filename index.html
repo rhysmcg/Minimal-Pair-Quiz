@@ -342,7 +342,20 @@ $(document).ready(function() {
 		
 		// Load in the next audio file		
 		$('#' + 'audio_' + set_id)[0].src = 'sounds/words/' + word_answers[ci] + ".wav";
-		$('#' + 'audio_' + set_id)[0].play();
+			
+		try {
+			$('#' + 'audio_' + set_id)[0].play();
+		    } catch (e) {
+			console.log(e);
+		    }
+
+		$('#' + 'audio_' + set_id).on("error", function (e) {
+			console.log("Error at audio tag level!");
+			responsiveVoice.speak(word_answers[ci], "UK English Male");
+		    });
+			
+			
+		// $('#' + 'audio_' + set_id)[0].play();
 		
 		// Update the progress bar and number above
 		// Advance the progress bar
