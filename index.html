@@ -284,7 +284,7 @@ $(document).ready(function() {
 	})
 
 	$('#' + set_id + '_replaybtn').click(function() {
-		$('#' + 'audio_' + set_id)[0].src = 'sounds/words/' + word_answers[ci] + ".wav";
+		// $('#' + 'audio_' + set_id)[0].src = 'sounds/words/' + word_answers[ci] + ".wav";
 		$('#' + 'audio_' + set_id)[0].play();
 	})
 
@@ -343,14 +343,16 @@ $(document).ready(function() {
 		// Load in the next audio file		
 		$('#' + 'audio_' + set_id)[0].src = 'sounds/words/' + word_answers[ci] + ".wav";
 			
+		console.log('Try to play audio after next button')	
+			
 		try {
 			$('#' + 'audio_' + set_id)[0].play();
 		    } catch (e) {
-			console.log(e);
+			console.log('failed to play');
 		    }
 
 		$('#' + 'audio_' + set_id).on("error", function (e) {
-			console.log("Error at audio tag level!");
+			console.log('Sorry, couldnt find audio! Trying text to speech');
 			responsiveVoice.speak(word_answers[ci], "UK English Male");
 		    });
 			
