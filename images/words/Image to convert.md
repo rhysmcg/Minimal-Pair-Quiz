@@ -64,59 +64,169 @@ blind - http://3.bp.blogspot.com/-n2AZwtHQUxs/ViipbGxK3kI/AAAAAAAAz38/gOIedkMKfB
 ### Heart - Height
 
 fart - http://4.bp.blogspot.com/-kdxWJwSer4A/VbnRqFhCiNI/AAAAAAAAwOc/sS6_InQRz_w/s400/onara.png
-
 fight - https://2.bp.blogspot.com/-XbbS6_lpLQY/Wm1y3GAxrSI/AAAAAAABJ78/csGj5uFMS-4a82PLBEei21xvjqFFESzUQCLcBGAs/s450/sports_nihon_kenpou.png
-
 guard - http://1.bp.blogspot.com/-hb4L_39XPzU/WTd4w2kpBNI/AAAAAAABEqI/b9a4JffuXLI9haj1qg0YHGHA-Zlph3KgQCLcB/s800/kaichudentou_keibiin_man.png
-
 guide - http://2.bp.blogspot.com/-YAw3uyhhZJE/U2GxFDhNuTI/AAAAAAAAflE/8zC34cUkPtg/s450/bus_guide.png
-
 Mark - https://upload.wikimedia.org/wikipedia/commons/f/fe/Mark_Zuckerberg_em_setembro_de_2014.jpg
-
 Mike - https://www.whitehouse.gov/wp-content/uploads/2017/11/Vice-President-Pence-Official-Portrait-1024x1280.jpg
-
 spark - http://2.bp.blogspot.com/-9AcrAHRo6Ls/VUIJaKqfs-I/AAAAAAAAtTk/4hHRyzCjs0s/s400/body_nouha.png
-
 spike - http://4.bp.blogspot.com/-pT4o7FRCpSM/UgSL8ZHT5DI/AAAAAAAAW4I/F4C0bOR7RdA/s400/plant_cactus.png
-
 R - http://1.bp.blogspot.com/-YsfPErfT_5I/U9zqs2qXyWI/AAAAAAAAkXo/82kWRhcJQrA/s1600/capital_r.png
-
 I - http://2.bp.blogspot.com/-Wox533cDp-Y/U9zqqY8PPCI/AAAAAAAAkXA/t9AbIcNHKVU/s1600/capital_i.png
-
 park - http://1.bp.blogspot.com/-frzuyATgaA0/UpGGWRI0XRI/AAAAAAAAa3s/eF5aeji2c9M/s400/bench_woman.png
-
 pike - https://4.bp.blogspot.com/-zruCEY7PbAs/WCqr4RQy51I/AAAAAAAA_xY/AZ5jRuaZlJQrurxcx3H0y2bNfLjJifDfACLcB/s400/buki_yari.png
-
 laugh - http://4.bp.blogspot.com/-E6eHfgSjrLg/WKFjAOcatzI/AAAAAAABBr4/pQpIg0kEb0kNqkga2OmG0ZJL-r84Bp4GwCLcB/s800/face_smile_man5.png
-
 life - http://2.bp.blogspot.com/-xZfYZQ1qOK0/UnIDGiDA-gI/AAAAAAAAZ1g/Iz1ZZZu2ii0/s400/akachan_okurumi.png
-
 height - http://2.bp.blogspot.com/-6rG-nhEkwEo/U8Xkn5dIbrI/AAAAAAAAi0s/rxwSOf168ag/s400/sports_rock_climbing.png
-
 hide - https://4.bp.blogspot.com/-tV9jcPhGe7k/V4Rzfv9pF4I/AAAAAAAA8MY/198zAddwO20zVThqjRNBvp1NdISVf_3BQCLcB/s400/hiyake_taisaku_perfect_mask.png
-
 cart - https://3.bp.blogspot.com/-GHXCfW4n7Y4/WTd5SxZZvrI/AAAAAAABEuo/Oi7XcQyjPuoWccICF_I2NOXvbXuW2J-YgCLcB/s400/train_syanai_hanbai.png
-
 Carl (Karl) - http://1.bp.blogspot.com/-ZRp1nvVyv4g/VixBiQd4CvI/AAAAAAAA0C8/H7vwU0EA-j4/s400/nigaoe_Karl_Marx.png
-
 OR - https://cdn-ed.versobooks.com/images/000010/993/Karl-Marx1-d9076c70d7110a86690306d6cc7a16bc.jpg
-
 Kyle - https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kyle_McLachlan_Cannes_2017_2.jpg/426px-Kyle_McLachlan_Cannes_2017_2.jpg
 
 ### Age - Edge
 
+Sale - http://3.bp.blogspot.com/-R52xmQrwRR8/Us_NQ9_d0fI/AAAAAAAAdHQ/6enK0IbOshY/s550/sale_ubaiai.png
+Sell - http://1.bp.blogspot.com/-x_KYXYQ6KMI/VbnRc1ZPoEI/AAAAAAAAwLY/egIK1p_lEBU/s400/cooking_jitsuen_hanbai.png
+Bait - https://4.bp.blogspot.com/-nbkbs6KQM3s/WdyEEN4eI8I/AAAAAAABHh8/i26OEv4mC80-e-s2mwAxJF_OJwKJ7YaHgCLcBGAs/s400/tsuri_esa_isome.png
+Age - https://3.bp.blogspot.com/-7Txq-jKTOMk/VufYFL22c5I/AAAAAAAA42U/_SWYeA4I45gLLJz6M0Zc843HYTNuU1TfQ/s400/book_yomu_mushimegane.png
+Edge - https://4.bp.blogspot.com/-qMTjibkyRbo/WFo-02D7bBI/AAAAAAABAik/DWHWfaI-37A8WMNfBo0CvmNlzyjkwojUgCLcB/s400/gake_tasukeru.png
+Saint - https://4.bp.blogspot.com/-cJrESzAmD8Q/WBsAoUo371I/AAAAAAAA_VI/fvOUJBqTdAsAinnjKOdFSWj8FbnI-2xEQCLcB/s400/nigaoe_augustinus.png
+Sent - http://1.bp.blogspot.com/-pZcWhFrQmpM/UbVvNt6t0WI/AAAAAAAAUr8/PbrfWJI0Ylg/s400/computer_mail.png
+fail - 
+fell - 
+gate - 
+get - 
+haven - 
+heaven - 
+later - 
+letter - 
+main - 
+men
+pepper - 
+paper - 
+raid - 
+red - 
+spatial - 
+special - 
+taste - 
+test - 
+tail - 
+tell - 
+wait - 
+wet - 
+
+
 ### Bag - Bug
+
+		["bag","bug"],
+		["track","truck"],
+		["mad","mud"],
+		["campus","compass"],
+		["ankle","uncle"],
+		["crash","crush"],
+		["paddle","puddle"],
+		["rash","rush"],
+		["match","much"],
+		["bank","bunk"],
+		["ran","run"],
+		["fan","fun"],
+		["hat","hut"],
+		["batter","butter"],
+		["cat","cut"]
 
 ### Boat - Bolt
 
+		["hose", "holes"],
+		["boat", "bolt"],
+		["go", "goal"],
+		["odor", "older"],
+		["row", "roll"],
+		["vote", "volt"],
+		["code", "cold"],
+		["toes", "tolls"],
+		["coat", "colt"],
+		["sow", "sole"]
+
 ### Cancel - Cancer
+
+		["cancel", "cancer"],
+		["angle", "anger"],
+		["towel", "tower"],
+		["loyal", "lawyer"],
+		["temple", "temper"],
+		["eagle", "eager"],
+		["ankle", "anchor"],
+		["survival", "survivor"],
+		["mental", "mentor"],
+		["little", "litter"],
+		["title", "tighter"],
+		["label", "labour"],
+		["final", "finer"],
+		["battle", "batter"],
+		["shuttle", "shutter"]
 
 ### Cold - Called
 
+		["cold", "called"],
+		["hole", "hall"],
+		["stole", "stall"],
+		["bowl", "ball"],
+		["mole", "mall"],
+		["bold", "bald"],
+		["toll", "tall"],
+		["pole", "Paul"],
+		["hold", "hauled"],
+		["bowling", "balling"]
+
 ### Connect - Collect
+
+		["connect", "collect"],
+		["nead", "lead"],
+		["knock", "lock"],
+		["snow", "slow"],
+		["winning", "willing"],
+		["nap", "lap"],
+		["name", "lame"],
+		["snap", "slap"],
+		["trainer", "trailer"],
+		["snack", "slack"],
+		["knot", "lot"],
+		["neighbour", "labour"],
+		["number", "lumber"],
+		["unarmed", "alarmed"],
+		["spinning", "spilling"]
 
 ### Fill - Feel
 
+		["fill", "feel"],
+		["ill", "eel"],
+		["will", "wheel"],
+		["still", "steel"],
+		["hill", "heel"],
+		["pillar", "peeler"],
+		["mill", "meal"],
+		["nill", "kneel"],
+		["filling", "feeling"],
+		["frilly", "freely"]
+
 ### Sell - Sale
 
+		["sell", "sale"],
+		["fell", "fail"],
+		["tell", "tail"],
+		["well", "whale"],
+		["hell", "hail"],
+		["deli", "daily"],
+		["bell", "bail"],
+		["held", "hailed"],
+		["cellar", "sailor"],
+		["selling", "sailing"]
+
 ### World - Word
+
+		["world", "word"],
+		["hurl", "her"],
+		["pearl", "purr"],
+		["whirl", "were"],
+		["hurled", "heard"]
