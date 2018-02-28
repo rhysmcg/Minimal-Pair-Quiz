@@ -42,7 +42,7 @@ rat - https://1.bp.blogspot.com/-mxFfb-1oBWg/WOdDcBJ9hAI/AAAAAAABDjM/NIiVvzYaJ7A
 
 atom - https://1.bp.blogspot.com/-rNFoV0lBgFU/WIW-O6F80uI/AAAAAAABBS8/IpFCOYtPsPw4x126O_uW78K999N5rIzVACLcB/s400/kagaku_genshi.png
 
-item - 
+item - https://1.bp.blogspot.com/-oNbAKPIix4I/V9ppshpIchI/AAAAAAAA9wY/o8kxbbR_JHgiKNVk-l9Ulcca24m4Oc6WACLcB/s400/job_kenpin_woman.png
 
 cat - https://1.bp.blogspot.com/-wPgN2RfvUG8/Vycdlnopd9I/AAAAAAAA6SU/ko_WvTzJTf4QjQDdZXlqvX2gfJqr4t1tgCLcB/s400/cat_sakura_cut_female.png
 
@@ -62,6 +62,46 @@ blind - http://3.bp.blogspot.com/-n2AZwtHQUxs/ViipbGxK3kI/AAAAAAAAz38/gOIedkMKfB
     
     
 ### Heart - Height
+
+fart - http://4.bp.blogspot.com/-kdxWJwSer4A/VbnRqFhCiNI/AAAAAAAAwOc/sS6_InQRz_w/s400/onara.png
+
+fight - https://2.bp.blogspot.com/-XbbS6_lpLQY/Wm1y3GAxrSI/AAAAAAABJ78/csGj5uFMS-4a82PLBEei21xvjqFFESzUQCLcBGAs/s450/sports_nihon_kenpou.png
+
+guard - http://1.bp.blogspot.com/-hb4L_39XPzU/WTd4w2kpBNI/AAAAAAABEqI/b9a4JffuXLI9haj1qg0YHGHA-Zlph3KgQCLcB/s800/kaichudentou_keibiin_man.png
+
+guide - http://2.bp.blogspot.com/-YAw3uyhhZJE/U2GxFDhNuTI/AAAAAAAAflE/8zC34cUkPtg/s450/bus_guide.png
+
+Mark - https://upload.wikimedia.org/wikipedia/commons/f/fe/Mark_Zuckerberg_em_setembro_de_2014.jpg
+
+Mike - https://www.whitehouse.gov/wp-content/uploads/2017/11/Vice-President-Pence-Official-Portrait-1024x1280.jpg
+
+spark - http://2.bp.blogspot.com/-9AcrAHRo6Ls/VUIJaKqfs-I/AAAAAAAAtTk/4hHRyzCjs0s/s400/body_nouha.png
+
+spike - http://4.bp.blogspot.com/-pT4o7FRCpSM/UgSL8ZHT5DI/AAAAAAAAW4I/F4C0bOR7RdA/s400/plant_cactus.png
+
+R - http://1.bp.blogspot.com/-YsfPErfT_5I/U9zqs2qXyWI/AAAAAAAAkXo/82kWRhcJQrA/s1600/capital_r.png
+
+I - http://2.bp.blogspot.com/-Wox533cDp-Y/U9zqqY8PPCI/AAAAAAAAkXA/t9AbIcNHKVU/s1600/capital_i.png
+
+park - http://1.bp.blogspot.com/-frzuyATgaA0/UpGGWRI0XRI/AAAAAAAAa3s/eF5aeji2c9M/s400/bench_woman.png
+
+pike - https://4.bp.blogspot.com/-zruCEY7PbAs/WCqr4RQy51I/AAAAAAAA_xY/AZ5jRuaZlJQrurxcx3H0y2bNfLjJifDfACLcB/s400/buki_yari.png
+
+laugh - http://4.bp.blogspot.com/-E6eHfgSjrLg/WKFjAOcatzI/AAAAAAABBr4/pQpIg0kEb0kNqkga2OmG0ZJL-r84Bp4GwCLcB/s800/face_smile_man5.png
+
+life - http://2.bp.blogspot.com/-xZfYZQ1qOK0/UnIDGiDA-gI/AAAAAAAAZ1g/Iz1ZZZu2ii0/s400/akachan_okurumi.png
+
+height - http://2.bp.blogspot.com/-6rG-nhEkwEo/U8Xkn5dIbrI/AAAAAAAAi0s/rxwSOf168ag/s400/sports_rock_climbing.png
+
+hide - https://4.bp.blogspot.com/-tV9jcPhGe7k/V4Rzfv9pF4I/AAAAAAAA8MY/198zAddwO20zVThqjRNBvp1NdISVf_3BQCLcB/s400/hiyake_taisaku_perfect_mask.png
+
+cart - https://3.bp.blogspot.com/-GHXCfW4n7Y4/WTd5SxZZvrI/AAAAAAABEuo/Oi7XcQyjPuoWccICF_I2NOXvbXuW2J-YgCLcB/s400/train_syanai_hanbai.png
+
+Carl (Karl) - http://1.bp.blogspot.com/-ZRp1nvVyv4g/VixBiQd4CvI/AAAAAAAA0C8/H7vwU0EA-j4/s400/nigaoe_Karl_Marx.png
+
+OR - https://cdn-ed.versobooks.com/images/000010/993/Karl-Marx1-d9076c70d7110a86690306d6cc7a16bc.jpg
+
+Kyle - https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kyle_McLachlan_Cannes_2017_2.jpg/426px-Kyle_McLachlan_Cannes_2017_2.jpg
 
 ### Age - Edge
 
