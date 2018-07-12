@@ -291,7 +291,7 @@ mp_sets = {
 		["pearl", "purr"],
 		["whirl", "were"],
 		["hurled", "heard"]
-	] */
-}
+	] 
+}*/
 
 }
