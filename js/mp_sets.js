@@ -105,7 +105,9 @@ mp_sets = {
 		["fan","fine"],
 		["bland","blind"]
 	]
-},
+},/*, 
+
+// Until here are all the pictures
 
   "Heart - Height":{
 	"id":"heart_height",
@@ -170,7 +172,7 @@ mp_sets = {
 		["batter","butter"],
 		["cat","cut"]
 	]
-}/*,
+}
 
 // RECORDID until here. Haven't recorded "hat"
 
