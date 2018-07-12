@@ -166,13 +166,13 @@ mp_sets = {
 		["bank","bunk"],
 		["ran","run"],
 		["fan","fun"],
-		["hat","hut"],
+		//["hat","hut"],
 		["batter","butter"],
 		["cat","cut"]
 	]
-},
+}/*,
 
-// RECORID
+// RECORDID until here. Haven't recorded "hat"
 
 
   "Boat - Bolt":{
@@ -291,7 +291,7 @@ mp_sets = {
 		["pearl", "purr"],
 		["whirl", "were"],
 		["hurled", "heard"]
-	]
+	] */
 }
 
 }
