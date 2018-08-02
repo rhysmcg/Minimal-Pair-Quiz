@@ -55,6 +55,7 @@ $(document).ready(function() {
 
 	// First read the minimal pair set object
 	Object.keys(mp_sets).forEach(function(key) {
+		
 	  
 	  var set_symbols = mp_sets[key]["symbols"];
 	  var set_id = mp_sets[key]["id"];
@@ -65,6 +66,21 @@ $(document).ready(function() {
 	  var word_answers = []
 	  var flag_images = ''
 	  
+	  	// Read all the images
+		for (i=0; i < set_words.length; i++) {
+			console.log(set_words[i][0])
+			console.log(set_words[i][1])
+			
+			var x = document.createElement("IMG");
+			x.setAttribute("src", "images/words/" + set_words[i][0] + ".gif");
+			//document.body.appendChild(x);
+			
+			var y = document.createElement("IMG");
+			x.setAttribute("src", "images/words/" + set_words[i][1] + ".gif");
+			//document.body.appendChild(x);
+			
+		}
+	  	  
 	  
 	var results_message_100 = 'Perfect! You have answered every question correctly!'
 	var results_message_50_99 = 'Good job! You got most of the answers correct!'
@@ -79,7 +95,6 @@ $(document).ready(function() {
 			'" style="width:24px; height:17px; opacity: 0.8; border:1px solid #000000"/>&nbsp;' +
 			'<div style="display:none;">' + set_tags[i] + '</div>'
 		}
-
 	  
 	  // Add the sets to the navigation list
 	  // Divide the list by the symbols
