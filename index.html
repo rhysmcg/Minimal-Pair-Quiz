@@ -143,12 +143,12 @@ $(document).ready(function() {
 	  // Create grid 
 	  '<fieldset class="ui-grid-a">' + 
 	  '<div class="ui-block-a">' +
-	  '<center><img id="' + set_id + '_img_1' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][0] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/></center>' +
+	  '<center><a href="#' + set_id + '_fb_dialogue" data-rel="popup" data-position-to="window" data-transition="pop"><img id="' + set_id + '_img_1' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][0] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/></a></center>' +
 	'<a type="button" id="' + set_id + '_word_1" href="#' + set_id + '_fb_dialogue" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow">' + shuffled_set_words[ci][0] + '</a></div>' +
 
 
 	'<div class="ui-block-b">' +
-	  '<center><img id="' + set_id + '_img_2' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][1] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/><center>' +
+	  '<center><a href="#' + set_id + '_fb_dialogue" data-rel="popup" data-position-to="window" data-transition="pop"><img id="' + set_id + '_img_2' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][1] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/></a><center>' +
 	'<a type="button" id="' + set_id + '_word_2" href="#' + set_id + '_fb_dialogue" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow">' + shuffled_set_words[ci][1] + '</a></div>' + 
 	  '</fieldset>' + '</p>' +
 
@@ -468,7 +468,7 @@ $(document).ready(function() {
 This tool will help you practise listening to similar sounding words.The country flags are for sounds that may be difficult from speakers of that language.</p> 
 Click the words that sound the same to you to practise! You can use this dropdown menu to filter the words.
 
-    <select id="lang-select" name="select-native-1" id="select-native-1" style="display: none;">
+    <select id="lang-select" name="select-native-1" id="select-native-1">
 		<option value="">All words</option>
         <option value="ja">Japanese</option>
         <option value="zh">Mandarin</option>
