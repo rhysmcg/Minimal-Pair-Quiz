@@ -83,7 +83,9 @@ mp_sets = {
 		["barn","burn"],
 		["star","stir"]
 	]
-},
+}
+	
+/*,
   "Back - Bike":{
 	"id":"back_bike",
 	"symbols":"/æ/ and /aɪ/",
@@ -292,6 +294,6 @@ mp_sets = {
 		["whirl", "were"],
 		["hurled", "heard"]
 	]
-}
+}*/
 
 }
