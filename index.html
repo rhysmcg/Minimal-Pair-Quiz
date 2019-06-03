@@ -13,7 +13,6 @@
     width:24px;
     height: 24px;
 }
-
 .audio_btn {
     width: 100px;
     text-shadow: none;
@@ -33,7 +32,6 @@
 
 <!-- Script to dynamically load in sets -->
 <script>
-
 // Shuffle Array Algorithm
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -44,18 +42,14 @@ function shuffleArray(array) {
     }
 	return array;
 }
-
 // global variables
 var ci = 0;
 var cscore = 0;
 var cprogresswidth = 1;
 var cwrong_words = [];
-
 $(document).ready(function() {
-
 	// First read the minimal pair set object
 	Object.keys(mp_sets).forEach(function(key) {
-		
 	  
 	  var set_symbols = mp_sets[key]["symbols"];
 	  var set_id = mp_sets[key]["id"];
@@ -66,28 +60,11 @@ $(document).ready(function() {
 	  var word_answers = []
 	  var flag_images = ''
 	  
-	  	// Read all the images
-		for (i=0; i < set_words.length; i++) {
-			console.log(set_words[i][0])
-			console.log(set_words[i][1])
-			
-			var x = document.createElement("IMG");
-			x.setAttribute("src", "images/words/" + set_words[i][0] + ".gif");
-			//document.body.appendChild(x);
-			
-			var y = document.createElement("IMG");
-			x.setAttribute("src", "images/words/" + set_words[i][1] + ".gif");
-			//document.body.appendChild(x);
-			
-		}
-	  	  
 	  
 	var results_message_100 = 'Perfect! You have answered every question correctly!'
 	var results_message_50_99 = 'Good job! You got most of the answers correct!'
 	var results_message_0_49 = 'Keep trying! You can do it!'
 	var results_message = ''
-
-
 		// Set up the images for the flags
 		// 
 		for (i=0; i < set_tags.length; i++) {
@@ -104,7 +81,6 @@ $(document).ready(function() {
 		  set_name + ' &nbsp;' + flag_images +
 		  '</h2><p>' + set_symbols + '</p></a></li>'
 	  ).listview("refresh");
-
 	  // Create a page for each pair
 	  // Create the page, heading with name, main
 	  // Add elements together
@@ -121,7 +97,6 @@ $(document).ready(function() {
       '<a id="' + set_id + '_backbtn" href="#index" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Back</a>' +
       '<h1>' + set_name + '</h1>' +
       '</div></br>' +
-
 	  	  
 	  // Progress bar
 	  '<div id="' + set_id + '_progress" style="width:100%; background-color:#ddd;">' + 
@@ -129,38 +104,22 @@ $(document).ready(function() {
 	  
 	  // Progress number
 	  '<div id="' + set_id + '_progress_number" style="text-align:right;">0/30</div>' + 
-
 	  
 	  // Title of the page
 	  '<div data-role="content" style="text-align:center;">' + "<h2>" + set_symbols + "</h2>" + '</div>' +
-
 	// START FLASH CARD
 	'<div id="' + set_id + '_flashcard" >' +
-
 	// AUDIO button (make a grid of 3, and centre it in the middle so it's not too big
 	'<center><a id="' + set_id + '_replaybtn" class="ui-btn ui-corner-all ui-shadow ui-icon-audio ui-btn-icon-top audio_btn">Replay</a></center>' +
-
 	  // Create grid 
 	  '<fieldset class="ui-grid-a">' + 
 	  '<div class="ui-block-a">' +
-	  '<center>
-		 
-		  <img id="' + set_id + '_img_1' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][0] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/>
-	
-	</center>' +
+	  '<center><img id="' + set_id + '_img_1' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][0] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/></center>' +
 	'<a type="button" id="' + set_id + '_word_1" href="#' + set_id + '_fb_dialogue" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow">' + shuffled_set_words[ci][0] + '</a></div>' +
-
-
 	'<div class="ui-block-b">' +
-	  '<center>
-		  <img id="' + set_id + '_img_2' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][1] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/>
-	
-		  
-		  
-		  <center>' +
+	  '<center><img id="' + set_id + '_img_2' + '"style="height:25vw; width:auto;" src="images/words/' + shuffled_set_words[ci][1] + '.gif" onerror="this.onerror=null;this.src=\'images/img-error.jpg\';"/><center>' +
 	'<a type="button" id="' + set_id + '_word_2" href="#' + set_id + '_fb_dialogue" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow">' + shuffled_set_words[ci][1] + '</a></div>' + 
 	  '</fieldset>' + '</p>' +
-
 	// END OF FLASHCARD
 	  
 	  // Feedback popup
@@ -174,7 +133,6 @@ $(document).ready(function() {
 		'<a id="' + set_id + '_nextword" href="#" data-rel="back" data-transition="fade" class="ui-btn ui-corner-all ui-shadow">Next</a>' +
       
 		'</div></div>' +
-
 	  // Results popup
 		'<div data-role="popup" id="' + set_id + '_results_dialogue" data-dismissible="false" style="max-width:400px;">' +
 		'<div data-role="header">' +
@@ -186,12 +144,9 @@ $(document).ready(function() {
 		'</p>' +
 		'<a id="' + set_id + '_home" href="#index" data-rel="back" data-transition="fade" class="ui-btn ui-corner-all ui-shadow">Go back</a>' +
 		'</div></div>' +
-
-
 	// Invisible pop up button
 	'<a type="button" id="' + set_id + '_results_popup_btn" href="#' + set_id + '_results_dialogue" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-b">Check Results!</a>' + 
      
-
 	  // Footer
 	  '<div data-role="footer" data-position="fixed" data-fullscreen="true">' +
 	  '</div>' +
@@ -199,7 +154,6 @@ $(document).ready(function() {
 	  // End the page	  
 	  '</div>'
 	  );
-
 	// Hide the results button until the end
 	$('#' + set_id + '_results_popup_btn').hide();
 	  
@@ -226,8 +180,6 @@ $(document).ready(function() {
 		$('#' + set_id + '_img_2').attr('src', 'images/words/' + shuffled_set_words[ci][1] + '.gif')
 		$('#' + set_id + '_img_1').on('error', 'function(){$(this).attr("src", "images/img-error.jpg");}');
 		$('#' + set_id + '_img_2').on('error', 'function(){$(this).attr("src", "images/img-error.jpg");}');
-
-
     		$(".backup_picture").on("error", function(){
         $(this).attr('src', './images/nopicture.png');
     });
@@ -251,13 +203,11 @@ $(document).ready(function() {
 		    } catch (e) {
 			console.log(e);
 		    }
-
 		$('#' + 'audio_' + set_id).on("error", function (e) {
 			tts_url = "https://code.responsivevoice.org/getvoice.php?tl=en_gb&t="
 			$('#' + 'audio_' + set_id)[0].src = tts_url + word_answers[ci]	
 			$('#' + 'audio_' + set_id)[0].play();
 		    });
-
 		
 		
 		// Enable the buttons
@@ -265,9 +215,6 @@ $(document).ready(function() {
 		$('#' + set_id + '_word_2').removeClass('ui-disabled');
 		$('#' + set_id + '_replaybtn').removeClass('ui-disabled');
 		$('#' + set_id + '_results_popup_btn').hide();
-
-
-
 	})
 	
 	function check_answer(button_id) {
@@ -307,14 +254,10 @@ $(document).ready(function() {
 	$('#' + set_id + '_word_2').click(function() {
 		check_answer('#' + set_id + '_word_2')
 	})
-
 	$('#' + set_id + '_replaybtn').click(function() {
 		// $('#' + 'audio_' + set_id)[0].src = 'sounds/words/' + word_answers[ci] + ".wav";
 		$('#' + 'audio_' + set_id)[0].play();
 	})
-
-
-
 	$('#' + set_id + '_backbtn').click(function() {
 			// Reset score, progress bar, empty wrong words
 			ci=0;
@@ -323,7 +266,6 @@ $(document).ready(function() {
 			bar.style.width = '0%';
 			cprogresswidth = 1;
 			cwrong_words = []
-
 	})
 	
 	//
@@ -335,7 +277,6 @@ $(document).ready(function() {
 	
 	// Fade the buttons out
 	$( '#' + set_id + '_flashcard').fadeOut( "fast", function() {
-
 	
 	// Start with "1/xx" instead of "0/xx" (under progress bar)
 	if (ci == 0) {
@@ -346,17 +287,14 @@ $(document).ready(function() {
 	}	
 	
 	var bar = document.getElementById(set_id + '_bar'); 
-
 	// While going through the words
 		if (ci < word_answers.length - 1) {
-
 		// increase the index
 		ci = ci+1;
 		
 		// Refresh the buttons with a new pair
 		$('#' + set_id + '_word_1').empty().append(shuffled_set_words[ci][0]);
 		$('#' + set_id + '_word_2').empty().append(shuffled_set_words[ci][1]);
-
 		$('#' + set_id + '_img_1').attr('src', 'images/words/' + shuffled_set_words[ci][0] + '.gif')
 		$('#' + set_id + '_img_2').attr('src', 'images/words/' + shuffled_set_words[ci][1] + '.gif')
 		
@@ -375,7 +313,6 @@ $(document).ready(function() {
 		    } catch (e) {
 			console.log('failed to play');
 		    }
-
 		$('#' + 'audio_' + set_id).on("error", function (e) {
 			tts_url = "https://code.responsivevoice.org/getvoice.php?tl=en_gb&t="
 			$('#' + 'audio_' + set_id)[0].src = tts_url + word_answers[ci]	
@@ -391,11 +328,9 @@ $(document).ready(function() {
 		cprogresswidth = (cprogress/set_words.length * 100)
 		bar.style.width = cprogresswidth + '%'; 
 		$('#' + set_id + '_progress_number').empty().append(cprogress + '/' + set_words.length);	
-
 		} else {
 			// Give the final score
 			$('#' + set_id + '_result').empty().append('You got ' + cscore + '/' + set_words.length + ' correct.');
-
 			// Write a different message, depending on the score
 			if (cscore == set_words.length) {results_message = results_message_100 }
 			else if ((cscore/set_words.length) >= 0.5) {results_message = results_message_50_99}
@@ -405,35 +340,29 @@ $(document).ready(function() {
 			if(cwrong_words.length > 0) {
 			
 			results_message += '</br></br><b>Try practising...</b></br></br>';
-
 			// Add the list of wrong words to the message, separate by comma and remove the last comma
 			results_message += cwrong_words.join(", ") + '</br>';
 			//results_message += '</br>';
 			}
 			
-
 			// Have messages prepared for results
 			$('#' + set_id + '_result_message').empty().append(results_message);
-
 			
 			
 			// Disable the buttons
         	$('#' + set_id + '_word_1').addClass('ui-disabled');
 			$('#' + set_id + '_word_2').addClass('ui-disabled');
 			$('#' + set_id + '_replaybtn').addClass('ui-disabled');
-
 			// Reset score, progress bar, empty wrong words
 			ci=0;
 			cscore = 0;
 			bar.style.width = '100%';
 			cprogresswidth = 1;
 			cwrong_words = []
-
 			// UNHIDE "Show results button "
 			$('#' + set_id + '_results_popup_btn').show();
 			$( '#' + set_id + '_results_popup_btn').effect( "fade", "slow" );
 			
-
 		}
 		})
 		
@@ -441,9 +370,6 @@ $(document).ready(function() {
 		$( '#' + set_id + '_flashcard').fadeIn( "fast" );
 	})
 	
-
-
-
 	})
 	
 	$('#lang-select').change(function(){ 
@@ -453,8 +379,6 @@ $(document).ready(function() {
 	});
 	
 });
-
-
 </script>
 
 
@@ -477,13 +401,13 @@ $(document).ready(function() {
 This tool will help you practise listening to similar sounding words.The country flags are for sounds that may be difficult from speakers of that language.</p> 
 Click the words that sound the same to you to practise! You can use this dropdown menu to filter the words.
 
-    <select id="lang-select" name="select-native-1" id="select-native-1">
+    <select id="lang-select" name="select-native-1" id="select-native-1">
 		<option value="">All words</option>
-        <option value="ja">Japanese</option>
-        <option value="zh">Mandarin</option>
-        <option value="hk">Cantonese</option>
-        <option value="ko">Korean</option>
-    </select>
+        <option value="ja">Japanese</option>
+        <option value="zh">Mandarin</option>
+        <option value="hk">Cantonese</option>
+        <option value="ko">Korean</option>
+    </select>
   
 
 <input id="filter_lang_codes" data-type="search" data-enhanced="true" data-inset="false" style="display:none;">
