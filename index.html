@@ -71,7 +71,10 @@ $(document).ready(function() {
 			flag_images += '<img src="images/' + set_tags[i] + '-flag.png' + 
 			'" style="width:24px; height:17px; opacity: 0.8; border:1px solid #000000"/>&nbsp;' +
 			'<div style="display:none;">' + set_tags[i] + '</div>'
+			flag_images = '' // Hide the flags temporarily
 		}
+		
+		flag_
 	  
 	  // Add the sets to the navigation list
 	  // Divide the list by the symbols
@@ -398,9 +401,9 @@ $(document).ready(function() {
 <div data-role="content">
 
 <div><h3><center>Practise listening!</center></h3></div>
-This tool will help you practise listening to similar sounding words.The country flags are for sounds that may be difficult from speakers of that language.</p> 
-Click the words that sound the same to you to practise! You can use this dropdown menu to filter the words.
-
+This tool will help you practise listening to similar sounding words!
+	<img src="https://cdn.pixabay.com/photo/2017/09/29/00/39/ear-icon-2797533_1280.png" style="width:400px;"></img>
+<!--
     <select id="lang-select" name="select-native-1" id="select-native-1">
 		<option value="">All words</option>
         <option value="ja">Japanese</option>
@@ -408,6 +411,7 @@ Click the words that sound the same to you to practise! You can use this dropdow
         <option value="hk">Cantonese</option>
         <option value="ko">Korean</option>
     </select>
+-->
   
 
 <input id="filter_lang_codes" data-type="search" data-enhanced="true" data-inset="false" style="display:none;">
