@@ -239,7 +239,7 @@ $(document).ready(function() {
 	// END OF FLASHCARD
 	  
 	  // Feedback popup
-		'<div data-role="popup" id="' + set_id + '_fb_dialogue" data-dismissible="false" style="max-width:400px;">' +
+		'<div data-role="popup" id="' + set_id + '_fb_dialogue" data-dismissible="true" style="max-width:400px; overflow: hidden;">' +
 		'<div data-role="header">' +
 		'<h1 id="' + set_id + '_status">Correct!</h1>' +
 		'</div>' +
@@ -250,7 +250,7 @@ $(document).ready(function() {
       
 		'</div></div>' +
 	  // Results popup
-		'<div data-role="popup" id="' + set_id + '_results_dialogue" data-dismissible="false" style="max-width:400px;">' +
+		'<div data-role="popup" id="' + set_id + '_results_dialogue" data-dismissible="true" style="max-width:400px; overflow: hidden;">' +
 		'<div data-role="header">' +
 		'<h1>Finished!</h1>' +
 		'</div>' +
