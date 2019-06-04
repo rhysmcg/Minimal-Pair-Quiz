@@ -157,6 +157,19 @@ $(document).ready(function() {
 	  );
 	// Hide the results button until the end
 	$('#' + set_id + '_results_popup_btn').hide();
+		
+		
+		
+	// Click the image and it will click the button below
+	    $("#" + set_id + '_img_1').click(function(){
+		    document.getElementById(set_id + '_word_1').click();
+	    });
+	
+	    $("#" + set_id + '_img_2').click(function(){
+		    document.getElementById(set_id + '_word_2').click();
+	    });
+		
+	// End of image code
 	  
 	
 	$("#" + set_id).click(function() {
