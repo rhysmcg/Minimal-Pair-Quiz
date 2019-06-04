@@ -7,7 +7,7 @@
 // Chinese speaker sounds: http://www.doctorsspeakup.com/content/speakers-chinese-languages
 
 mp_sets = {
-  "Law - Low":{
+  "Aw - Ow":{
 	"id":"law_low",
 	"symbols":"/ɔː/ and /əʊ/",
 	"tags":["ja"],
@@ -29,7 +29,7 @@ mp_sets = {
   		["tone","torn"]
 	]
 },
-  "Very - Berry":{
+  "V - B":{
 	"id":"very_berry",
 	"symbols":"/v/ and /b/",
 	"tags":["ja","es","ko"],
@@ -45,7 +45,7 @@ mp_sets = {
 		["vent","bent"]
 	]
 },
-  "Right - Light":{
+  "R - L":{
 	"id":"right_light",
 	"symbols":"/r/ and /l/",
 	"tags":["ja","ko"],
@@ -67,7 +67,7 @@ mp_sets = {
 		["crown","clown"]
 	]
 },
-  "Fast - First":{
+  "Ar - Er":{
 	"id":"heart_hurt",
 	"symbols":"/ɑ:/ and /ɜ:/",
 	"tags":["ja"],
