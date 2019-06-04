@@ -290,11 +290,17 @@ $(document).ready(function() {
 	    });
 		
 	// End of image code
+		
+	
+	// Remove the scrollbars for the pop up
 	  
 	
 	$("#" + set_id).click(function() {
 	
 		word_answers = []
+		
+		$("#" + set_id + '_fb_dialogue').css('overflow-y', 'scroll');  
+		$("#" + set_id + '_results_dialogue').css('overflow-y', 'scroll');  
 	
 		// Randomise the pairs and the answers
 		var shuffled_set_words = shuffleArray(set_words)
